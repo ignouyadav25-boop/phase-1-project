@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback Form</title>
+</head>
+<body>
+    <header>
+        <h1>Student Profile & Course Portal</h1>
+    <nav>
+    <ul>
+        <li><button><a href="website.html">Home</a> </button></li>
+        <li><button><a href="profile.html">Profile</a></button></li>
+        <li><button><a href="courses.html">Courses</a></button></li>
+        <li><button><a href="feedback.html">Feedback</a></button></li>
+        <li><button><a href="grades.html">Grades Table</a></button></li>
+        <li><button><a href="contact.html">Contact Us</a></button></li>
+    </ul>
+    </nav></header><hr>
+    <main>
+    <h1>Feedback form</h1>
+ <form>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="Phone">Phone Number:</label><br>
+    <input type="text"id="phone"name="phone"><br>
+
+    <label for="Email">Email:</label><br>
+    <input type="Email" id="email" name="email"><br><br>
+
+<label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="other"> Other<br><br>
+
+
+ <label for="feedbackType">Feedback Type:</label><br>
+    <select id="feedbackType" name="feedbackType">
+        <option value="academic">Academic</option>
+        <option value="infrastructure">Infrastructure</option>
+        <option value="activities">Activities</option>
+        <option value="other">Other</option>
+    </select><br><br>
+
+  <label for="rating">Overall Rating:</label><br>
+    <select id="rating" name="rating">
+        <option value="1">1 - Average</option>
+        <option value="2">2 - Good</option>
+        <option value="3">3 - Very Good</option>
+        <option value="4">4 - Excellent</option>
+    </select><br><br>
+
+ <label>Services Used:</label><br>
+    <input type="checkbox" name="service" value="web"> Web Design<br>
+    <input type="checkbox" name="service" value="app"> App Development<br>
+    <input type="checkbox" name="service" value="support"> Support<br>
+    <br><br>
+
+<label>How was the course level?</label><br>
+      <input type="radio" name="difficulty" value="easy"> Easy<br>
+      <input type="radio" name="difficulty" value="medium"> Medium<br>
+      <input type="radio" name="difficulty" value="hard"> Hard<br><br>
+<p>What more can we improve in a student profile website? Please give some suggestions</p>
+
+ <label for="message">Your Feedback:</label><br>
+ <textarea id="message" name="message"></textarea><br>
+
+
+    <button type="submit">Submit</button>
+</main><br><br>
+
+  <footer>
+    <p>@2026studentportal</p>
+    <button><a href="courses.html">Back</a></button>
+    <button><a href="grades.html">Next Page</a></button>
+</footer><br>
+</form> 
+ 
+    
+</body>
+</html>
